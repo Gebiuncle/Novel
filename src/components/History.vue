@@ -1,4 +1,3 @@
 <template>
-	<div class="history">
-	</di>
+	<div></div>
 </template>
