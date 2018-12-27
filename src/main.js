@@ -4,6 +4,7 @@ import Vue from 'vue'
 import axios from 'axios'
 import App from './App'
 import {router} from './router/index.js'
+import store from './store'
 
 import 'lib-flexible'
 import 'static/css/reset.css'
@@ -17,6 +18,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

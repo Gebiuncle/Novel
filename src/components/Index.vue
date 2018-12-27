@@ -151,6 +151,7 @@ export default{
 			text-align center
 			font-size 0.426667rem
 			color #ff6882
+			line-height 1.066667rem
 		.item 
 			display flex
 			align-items center
